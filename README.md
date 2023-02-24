@@ -26,4 +26,4 @@ Created Travis CI chain, containing .travis.yml for configuring the app to be bu
 
 Created AWS Elasticbeanstalk for deploying the app to AWS
 
-One the flow is completed: code change in github with a pull request being merged, then travis deploys the code to AWS where docker image is build, container run, tests are run, all is good!
+One the flow is completed: code change in github with a pull request being merged, then travis builds image, runs docker container, runs tests, deploys app to AWS
